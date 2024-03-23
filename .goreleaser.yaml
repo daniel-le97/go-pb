@@ -10,7 +10,6 @@ version: 1
 report_sizes: true
 dockers:
   - image_templates:
-      - "daniel-le97/go-pb:latest"
       - "ghcr.io/daniel-le97/go-pb:{{.Tag}}"
 before:
   hooks:
